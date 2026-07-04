@@ -1,0 +1,13 @@
+{
+  "name": "fang",
+  "version": "0.1.0",
+  "description": "Firewall for Autonomous Next-Gen Agents",
+  "main": "dist/daemon/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint src --ext .ts",
+    "dev": "tsx watch src/daemon/server.ts"
+  }
+}
